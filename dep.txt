@@ -1,0 +1,149 @@
+
+[INFO] Copying jersey-server-1.19.3.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/jersey-server-1.19.3.jar
+[INFO] Copying jersey-core-1.19.3.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/jersey-core-1.19.3.jar
+[INFO] Copying jsr311-api-1.1.1.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/jsr311-api-1.1.1.jar
+[INFO] Copying jersey-servlet-1.19.3.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/jersey-servlet-1.19.3.jar
+[INFO] Copying javax.servlet-api-3.1.0.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/javax.servlet-api-3.1.0.jar
+[INFO] Copying jersey-multipart-1.19.3.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/jersey-multipart-1.19.3.jar
+[INFO] Copying mimepull-1.9.3.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/mimepull-1.9.3.jar
+[INFO] Copying logback-classic-1.0.13.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/logback-classic-1.0.13.jar
+[INFO] Copying logback-core-1.0.13.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/logback-core-1.0.13.jar
+[INFO] Copying slf4j-api-1.7.5.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/slf4j-api-1.7.5.jar
+[INFO] Copying mysql-connector-java-5.1.17.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/mysql-connector-java-5.1.17.jar
+[INFO] Copying gson-2.8.0.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/gson-2.8.0.jar
+[INFO] Copying org.apache.oltu.oauth2.common-1.0.2.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/org.apache.oltu.oauth2.common-1.0.2.jar
+[INFO] Copying json-20140107.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/json-20140107.jar
+[INFO] Copying commons-codec-1.9.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/commons-codec-1.9.jar
+[INFO] Copying org.apache.oltu.oauth2.authzserver-1.0.0.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/org.apache.oltu.oauth2.authzserver-1.0.0.jar
+[INFO] Copying org.mdmi.ecore-1.5.0-SNAPSHOT.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/org.mdmi.ecore-1.5.0-SNAPSHOT.jar
+[INFO] Copying org.mdmi.core.runtime-1.5.0-SNAPSHOT.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/org.mdmi.core.runtime-1.5.0-SNAPSHOT.jar
+[INFO] Copying commons-configuration-1.10.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/commons-configuration-1.10.jar
+[INFO] Copying commons-lang-2.6.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/commons-lang-2.6.jar
+[INFO] Copying commons-logging-1.1.1.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/commons-logging-1.1.1.jar
+[INFO] Copying org.eclipse.emf.ecore-2.15.0.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/org.eclipse.emf.ecore-2.15.0.jar
+[INFO] Copying org.eclipse.emf.common-2.15.0.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/org.eclipse.emf.common-2.15.0.jar
+[INFO] Copying org.eclipse.core.runtime-3.15.200.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/org.eclipse.core.runtime-3.15.200.jar
+[INFO] Copying org.eclipse.osgi-3.13.300.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/org.eclipse.osgi-3.13.300.jar
+[INFO] Copying org.eclipse.equinox.common-3.10.300.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/org.eclipse.equinox.common-3.10.300.jar
+[INFO] Copying org.eclipse.core.jobs-3.10.300.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/org.eclipse.core.jobs-3.10.300.jar
+[INFO] Copying org.eclipse.equinox.registry-3.8.300.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/org.eclipse.equinox.registry-3.8.300.jar
+[INFO] Copying org.eclipse.equinox.preferences-3.7.300.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/org.eclipse.equinox.preferences-3.7.300.jar
+[INFO] Copying org.eclipse.core.contenttype-3.7.300.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/org.eclipse.core.contenttype-3.7.300.jar
+[INFO] Copying org.eclipse.equinox.app-1.4.100.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/org.eclipse.equinox.app-1.4.100.jar
+[INFO] Copying org.eclipse.emf.ecore.xmi-2.15.0.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/org.eclipse.emf.ecore.xmi-2.15.0.jar
+[INFO] Copying hapi-base-2.3.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/hapi-base-2.3.jar
+[INFO] Copying joda-time-2.1.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/joda-time-2.1.jar
+[INFO] Copying hapi-structures-v26-2.3.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/hapi-structures-v26-2.3.jar
+[INFO] Copying org.json.simple-0.4.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/org.json.simple-0.4.jar
+[INFO] Copying json-simple-1.1.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/json-simple-1.1.jar
+[INFO] Copying hapi-fhir-client-3.6.0.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/hapi-fhir-client-3.6.0.jar
+[INFO] Copying hapi-fhir-base-3.6.0.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/hapi-fhir-base-3.6.0.jar
+[INFO] Copying commons-lang3-3.8.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/commons-lang3-3.8.jar
+[INFO] Copying commons-text-1.4.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/commons-text-1.4.jar
+[INFO] Copying commons-io-2.6.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/commons-io-2.6.jar
+[INFO] Copying guava-25.0-jre.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/guava-25.0-jre.jar
+[INFO] Copying checker-compat-qual-2.0.0.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/checker-compat-qual-2.0.0.jar
+[INFO] Copying error_prone_annotations-2.1.3.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/error_prone_annotations-2.1.3.jar
+[INFO] Copying j2objc-annotations-1.1.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/j2objc-annotations-1.1.jar
+[INFO] Copying animal-sniffer-annotations-1.14.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/animal-sniffer-annotations-1.14.jar
+[INFO] Copying jcl-over-slf4j-1.7.25.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar
+[INFO] Copying httpclient-4.5.3.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/httpclient-4.5.3.jar
+[INFO] Copying httpcore-4.4.6.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/httpcore-4.4.6.jar
+[INFO] Copying hapi-fhir-structures-dstu3-3.6.0.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/hapi-fhir-structures-dstu3-3.6.0.jar
+[INFO] Copying hapi-fhir-utilities-3.6.0.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/hapi-fhir-utilities-3.6.0.jar
+[INFO] Copying hapi-fhir-structures-r4-3.6.0.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/hapi-fhir-structures-r4-3.6.0.jar
+[INFO] Copying ph-schematron-5.0.4.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/ph-schematron-5.0.4.jar
+[INFO] Copying ph-xml-9.1.1.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/ph-xml-9.1.1.jar
+[INFO] Copying ph-collection-9.1.1.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/ph-collection-9.1.1.jar
+[INFO] Copying ph-jaxb-9.1.1.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/ph-jaxb-9.1.1.jar
+[INFO] Copying jaxb-runtime-2.2.11.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/jaxb-runtime-2.2.11.jar
+[INFO] Copying stax-ex-1.7.7.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/stax-ex-1.7.7.jar
+[INFO] Copying FastInfoset-1.2.13.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/FastInfoset-1.2.13.jar
+[INFO] Copying jaxb-core-2.2.11.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/jaxb-core-2.2.11.jar
+[INFO] Copying jaxb-api-2.2.12-b140109.1041.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/jaxb-api-2.2.12-b140109.1041.jar
+[INFO] Copying txw2-2.2.11.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/txw2-2.2.11.jar
+[INFO] Copying istack-commons-runtime-2.21.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/istack-commons-runtime-2.21.jar
+[INFO] Copying Saxon-HE-9.8.0-12.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/Saxon-HE-9.8.0-12.jar
+[INFO] Copying ph-commons-9.1.1.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/ph-commons-9.1.1.jar
+[INFO] Copying jsr305-3.0.2.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/jsr305-3.0.2.jar
+[INFO] Copying antlr4-runtime-4.5.1.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/antlr4-runtime-4.5.1.jar
+[INFO] Copying jersey-client-1.19.3.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/jersey-client-1.19.3.jar
+[INFO] Copying junit-4.11.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/junit-4.11.jar
+[INFO] Copying hamcrest-core-1.3.jar to /Users/seanmuir/git/mdmiservice/org.mdmi.rt.service/target/WEB-INF/lib/hamcrest-core-1.3.jar
+[INFO] 
+[I
+
+org.mdmi:org.mdmi.rt.service:war:1.0.0
+[INFO] +- com.sun.jersey:jersey-server:jar:1.19.3:compile
+[INFO] |  \- com.sun.jersey:jersey-core:jar:1.19.3:compile
+[INFO] |     \- javax.ws.rs:jsr311-api:jar:1.1.1:compile
+[INFO] +- com.sun.jersey:jersey-servlet:jar:1.19.3:compile
+[INFO] +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[INFO] +- com.sun.jersey.contribs:jersey-multipart:jar:1.19.3:compile
+[INFO] |  \- org.jvnet.mimepull:mimepull:jar:1.9.3:compile
+[INFO] +- ch.qos.logback:logback-classic:jar:1.0.13:compile
+[INFO] +- ch.qos.logback:logback-core:jar:1.0.13:compile
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.5:compile
+[INFO] +- mysql:mysql-connector-java:jar:5.1.17:compile
+[INFO] +- com.google.code.gson:gson:jar:2.8.0:compile
+[INFO] +- org.apache.oltu.oauth2:org.apache.oltu.oauth2.common:jar:1.0.2:compile
+[INFO] |  +- org.json:json:jar:20140107:compile
+[INFO] |  \- commons-codec:commons-codec:jar:1.9:compile
+[INFO] +- org.apache.oltu.oauth2:org.apache.oltu.oauth2.authzserver:jar:1.0.0:compile
+[INFO] +- org.mdmi:org.mdmi.ecore:jar:1.5.0-SNAPSHOT:compile
+[INFO] +- org.mdmi:org.mdmi.core.runtime:jar:1.5.0-SNAPSHOT:compile
+[INFO] +- commons-configuration:commons-configuration:jar:1.10:compile
+[INFO] |  +- commons-lang:commons-lang:jar:2.6:compile
+[INFO] |  \- commons-logging:commons-logging:jar:1.1.1:compile
+[INFO] +- org.eclipse.emf:org.eclipse.emf.ecore:jar:2.15.0:compile
+[INFO] +- org.eclipse.emf:org.eclipse.emf.common:jar:2.15.0:compile
+[INFO] +- org.eclipse.platform:org.eclipse.core.runtime:jar:3.15.200:compile
+[INFO] |  +- org.eclipse.platform:org.eclipse.osgi:jar:3.13.300:compile (version selected from constraint [3.13.0,4.0.0))
+[INFO] |  +- org.eclipse.platform:org.eclipse.equinox.common:jar:3.10.300:compile (version selected from constraint [3.10.0,4.0.0))
+[INFO] |  +- org.eclipse.platform:org.eclipse.core.jobs:jar:3.10.300:compile (version selected from constraint [3.10.0,4.0.0))
+[INFO] |  +- org.eclipse.platform:org.eclipse.equinox.registry:jar:3.8.300:compile (version selected from constraint [3.8.0,4.0.0))
+[INFO] |  +- org.eclipse.platform:org.eclipse.equinox.preferences:jar:3.7.300:compile (version selected from constraint [3.7.0,4.0.0))
+[INFO] |  +- org.eclipse.platform:org.eclipse.core.contenttype:jar:3.7.300:compile (version selected from constraint [3.7.0,4.0.0))
+[INFO] |  \- org.eclipse.platform:org.eclipse.equinox.app:jar:1.4.100:compile (version selected from constraint [1.3.0,))
+[INFO] +- org.eclipse.emf:org.eclipse.emf.ecore.xmi:jar:2.15.0:compile
+[INFO] +- ca.uhn.hapi:hapi-base:jar:2.3:compile
+[INFO] |  \- joda-time:joda-time:jar:2.1:compile
+[INFO] +- ca.uhn.hapi:hapi-structures-v26:jar:2.3:compile
+[INFO] +- org.apache.clerezza.ext:org.json.simple:jar:0.4:compile
+[INFO] |  \- com.googlecode.json-simple:json-simple:jar:1.1:compile
+[INFO] +- ca.uhn.hapi.fhir:hapi-fhir-client:jar:3.6.0:compile
+[INFO] |  +- ca.uhn.hapi.fhir:hapi-fhir-base:jar:3.6.0:compile
+[INFO] |  |  +- org.apache.commons:commons-lang3:jar:3.8:compile
+[INFO] |  |  +- org.apache.commons:commons-text:jar:1.4:compile
+[INFO] |  |  +- commons-io:commons-io:jar:2.6:compile
+[INFO] |  |  +- com.google.guava:guava:jar:25.0-jre:compile
+[INFO] |  |  |  +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+[INFO] |  |  |  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+[INFO] |  |  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+[INFO] |  |  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+[INFO] |  |  \- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+[INFO] |  +- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+[INFO] |  \- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+[INFO] +- ca.uhn.hapi.fhir:hapi-fhir-structures-dstu3:jar:3.6.0:compile
+[INFO] |  \- ca.uhn.hapi.fhir:hapi-fhir-utilities:jar:3.6.0:compile
+[INFO] +- ca.uhn.hapi.fhir:hapi-fhir-structures-r4:jar:3.6.0:compile
+[INFO] +- com.helger:ph-schematron:jar:5.0.4:compile
+[INFO] |  +- com.helger:ph-xml:jar:9.1.1:compile
+[INFO] |  |  \- com.helger:ph-collection:jar:9.1.1:compile
+[INFO] |  +- com.helger:ph-jaxb:jar:9.1.1:compile
+[INFO] |  |  +- org.glassfish.jaxb:jaxb-runtime:jar:2.2.11:compile
+[INFO] |  |  |  +- org.jvnet.staxex:stax-ex:jar:1.7.7:compile
+[INFO] |  |  |  \- com.sun.xml.fastinfoset:FastInfoset:jar:1.2.13:compile
+[INFO] |  |  +- org.glassfish.jaxb:jaxb-core:jar:2.2.11:compile
+[INFO] |  |  |  +- javax.xml.bind:jaxb-api:jar:2.2.12-b140109.1041:compile
+[INFO] |  |  |  \- org.glassfish.jaxb:txw2:jar:2.2.11:compile
+[INFO] |  |  \- com.sun.istack:istack-commons-runtime:jar:2.21:compile
+[INFO] |  \- net.sf.saxon:Saxon-HE:jar:9.8.0-12:compile
+[INFO] +- com.helger:ph-commons:jar:9.1.1:compile
+[INFO] |  \- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] +- xalan:serializer:jar:2.7.2:compile
+[INFO] |  \- xml-apis:xml-apis:jar:1.3.04:compile
+[INFO] +- org.antlr:antlr4-runtime:jar:4.5.1:compile
+[INFO] +- com.sun.jersey:jersey-client:jar:1.19.3:test
+[INFO] \- junit:junit:jar:4.11:test
+[INFO]    \- org.hamcrest:hamcrest-core:jar:1.3:test

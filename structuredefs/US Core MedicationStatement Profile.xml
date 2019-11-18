@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fhir:StructureDefinition xmlns:fhir="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <fhir:id value="_420A62FD03B641A349EF0070"/>
+  <fhir:text>
+    <fhir:status value="generated"/>
+    <xhtml:div><xhtml:table title="need to change type to be like structure text in cda"/></xhtml:div>
+  </fhir:text>
+  <fhir:url value="http://www.fhims.org/MedicationAdministrationEvent"/>
+  <fhir:name value="MedicationAdministrationEvent"/>
+  <fhir:status value="draft"/>
+  <fhir:experimental value="false"/>
+  <fhir:date value="2019-06-01T17:28:42.263-04:00"/>
+  <fhir:publisher value="Office of National Coordinator"/>
+  <fhir:contact>
+    <fhir:telecom>
+      <fhir:system value="url"/>
+      <fhir:value value="URL"/>
+      <fhir:use value="work"/>
+    </fhir:telecom>
+  </fhir:contact>
+  <fhir:description value="&quot;Information about the actual consumption of medication by a patient.  While this is generally only relevant for hospital/institutional systems which track individual administrations, it could also be used in ambulatory care e.g. home-health environments which capture administrations such as insulin injections and which use messaging to communicate the information back to a central source; recording immunizations.&quot; (HL7 Version 3)."/>
+  <fhir:jurisdiction>
+    <fhir:coding>
+      <fhir:system value="urn:iso:std:iso:3166"/>
+      <fhir:code value="US"/>
+      <fhir:display value="United States of America"/>
+    </fhir:coding>
+  </fhir:jurisdiction>
+  <fhir:copyright value="ONC"/>
+  <fhir:fhirVersion value="4.0.0"/>
+  <fhir:mapping/>
+  <fhir:kind value="resource"/>
+  <fhir:abstract value="false"/>
+  <fhir:type value="MedicationStatement"/>
+  <fhir:baseDefinition value="org.hl7.fhir.impl.UriImpl@6590c4fc (id: null) (value: http://hl7.org/fhir/StructureDefinition/MedicationStatement)"/>
+  <fhir:derivation value="constraint"/>
+  <fhir:differential>
+    <fhir:element>
+      <fhir:path value="MedicationStatement"/>
+      <fhir:sliceName value="US Core MedicationStatement Profile"/>
+      <fhir:min value="0"/>
+      <fhir:max value="*"/>
+      <fhir:type>
+        <fhir:code value="MedicationStatement"/>
+      </fhir:type>
+    </fhir:element>
+    <fhir:element id="_Q4A4QIAkEeGE1-mzJa42fw">
+      <fhir:path value="MedicationStatement.dosage"/>
+      <fhir:sliceName value="route"/>
+      <fhir:min value="1"/>
+      <fhir:max value="1"/>
+      <fhir:type>
+        <fhir:code value="Dosage"/>
+      </fhir:type>
+    </fhir:element>
+    <fhir:element id="_GKqnAISoEembhpoG9aXGiw">
+      <fhir:path value="MedicationStatement.medication[x]"/>
+      <fhir:sliceName value="medicationCode"/>
+      <fhir:min value="0"/>
+      <fhir:type>
+        <fhir:code value="http://eclipse.org/mdht/fhir/StructureDefinition/DataType"/>
+      </fhir:type>
+      <fhir:binding>
+        <fhir:strength value="preferred"/>
+        <fhir:description value="http://hl7.org/fhir/us/core/ValueSet/us-core-medication-codes"/>
+        <fhir:valueSet value="http://hl7.org/fhir/us/core/ValueSet/us-core-medication-codes"/>
+      </fhir:binding>
+    </fhir:element>
+    <fhir:element id="_ahZZILyEEeGK2djLWlLFew">
+      <fhir:path value="MedicationStatement.effective[x]"/>
+      <fhir:sliceName value="dateTimeEnd"/>
+      <fhir:min value="1"/>
+      <fhir:type>
+        <fhir:code value="http://eclipse.org/mdht/fhir/StructureDefinition/DataType"/>
+      </fhir:type>
+    </fhir:element>
+    <fhir:element id="_420A62FD03B641B4D758015F">
+      <fhir:path value="MedicationStatement.status"/>
+      <fhir:sliceName value="status"/>
+      <fhir:type>
+        <fhir:code value="code"/>
+      </fhir:type>
+    </fhir:element>
+  </fhir:differential>
+</fhir:StructureDefinition>

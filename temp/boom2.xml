@@ -1,0 +1,41 @@
+<Bundle xmlns="http://hl7.org/fhir">
+   <type value="searchset"></type>
+   <entry>
+      <resource>
+         <Bundle xmlns="http://hl7.org/fhir">
+            <meta>
+               <source value="LABS"></source>
+            </meta>
+            <type value="collection"></type>
+            <entry>
+               <resource>
+                  <Observation xmlns="http://hl7.org/fhir">
+                     <identifier>
+                        <value value="IGVZZEBBQZ"></value>
+                     </identifier>
+                     <status value="final"></status>
+                     <code>
+                        <coding>
+                           <system value="http://loinc.org"></system>
+                           <code value="1778"></code>
+                           <display value="BylPDUbWFyGASTdjISKEPxJNY"></display>
+                        </coding>
+                     </code>
+                     <valueCodeableConcept>
+                        <coding>
+                           <system value="VtSjJQQADxWtIaxrFfWNvDGgo"></system>
+                           <code value="X6OmFNR5XvuJQXVrUauo2Wl09"></code>
+                           <display value="CYJUVhfrRpoaVfxCLpaQEYJbj"></display>
+                        </coding>
+                     </valueCodeableConcept>
+                     <interpretation>
+                        <text value="N"></text>
+                     </interpretation>
+                  </Observation>
+               </resource>
+            </entry>
+          
+         </Bundle>
+      </resource>
+   </entry>
+</Bundle>

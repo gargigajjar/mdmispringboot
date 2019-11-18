@@ -1,0 +1,701 @@
+{
+	"resourceType": "Bundle",
+	"type": "searchset",
+	"total": 7,
+	"link": [
+		{
+			"relation": "next",
+			"url": "_pagelink?_link_id=DnF1ZXJ5VGhlbkZldGNoBQAAAAAALEz8FlZJdEZXMHUwUkYyb3JzczdJeFhJVncAAAAAACxM_RZWSXRGVzB1MFJGMm9yc3M3SXhYSVZ3AAAAAAAsTP8WVkl0RlcwdTBSRjJvcnNzN0l4WElWdwAAAAAALE0AFlZJdEZXMHUwUkYyb3JzczdJeFhJVncAAAAAACxM_hZWSXRGVzB1MFJGMm9yc3M3SXhYSVZ3"
+		}
+	],
+	"entry": [
+		{
+			"resource": {
+				"id": "22294565",
+				"meta": {
+					"versionId": "0",
+					"lastUpdated": "2018-09-21T10:54:45",
+					"tag": [
+						{
+							"code": "Cerner",
+							"display": "Cerner"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-medicationstatement",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-medicationstatement",
+							"code": "NA",
+							"display": "Not Applicable"
+						}
+					]
+				},
+				"text": {
+					"status": "generated"
+				},
+				"resourceType": "MedicationStatement",
+				"status": "active",
+				"medicationCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+							"code": "33738",
+							"display": "pioglitazone",
+							"userSelected": false
+						}
+					],
+					"text": "pioglitazone"
+				},
+				"effectivePeriod": {
+					"start": "2017-02-03T14:37:00.000-08:00"
+				},
+				"dateAsserted": "2017-02-03T16:37:39.000-06:00",
+				"informationSource": {
+					"reference": "Practitioner/4474007",
+					"display": "Pickering, Kathy"
+				},
+				"subject": {
+					"reference": "Patient/2345",
+					"display": "Timonen, Kimmo"
+				},
+				"taken": "y",
+				"dosage": [
+					{
+						"text": "30 mg, Oral, Daily",
+						"timing": {
+							"repeat": {
+								"boundsPeriod": {
+									"start": "2017-02-03T14:37:00.000-08:00"
+								}
+							},
+							"code": {
+								"coding": [
+									{
+										"system": "http://hl7.org/fhir/timing-abbreviation",
+										"code": "QD",
+										"display": "QD",
+										"userSelected": false
+									}
+								],
+								"text": "Daily"
+							}
+						},
+						"route": {
+							"coding": [
+								{
+									"system": "http://ncimeta.nci.nih.gov",
+									"code": "C38288",
+									"display": "ORAL",
+									"userSelected": false
+								},
+								{
+									"system": "http://snomed.info/sct",
+									"code": "26643006",
+									"display": "Oral route (qualifier value)",
+									"userSelected": false
+								}
+							],
+							"text": "Oral"
+						}
+					}
+				]
+			}
+		},
+		{
+			"resource": {
+				"id": "22294413",
+				"meta": {
+					"versionId": "0",
+					"lastUpdated": "2018-09-21T10:54:45",
+					"tag": [
+						{
+							"code": "Cerner",
+							"display": "Cerner"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-medicationstatement",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-medicationstatement",
+							"code": "NA",
+							"display": "Not Applicable"
+						}
+					]
+				},
+				"text": {
+					"status": "generated"
+				},
+				"resourceType": "MedicationStatement",
+				"status": "active",
+				"medicationCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+							"code": "11289",
+							"display": "Warfarin",
+							"userSelected": false
+						}
+					],
+					"text": "warfarin"
+				},
+				"effectivePeriod": {
+					"start": "2017-02-03T09:00:00.000-08:00"
+				},
+				"dateAsserted": "2017-02-03T09:42:09.000-06:00",
+				"informationSource": {
+					"reference": "Practitioner/4474007",
+					"display": "Pickering, Kathy"
+				},
+				"subject": {
+					"reference": "Patient/2345",
+					"display": "Timonen, Kimmo"
+				},
+				"taken": "y",
+				"dosage": [
+					{
+						"text": "3 mg, Oral, Daily",
+						"timing": {
+							"repeat": {
+								"boundsPeriod": {
+									"start": "2017-02-03T09:00:00.000-08:00"
+								}
+							},
+							"code": {
+								"coding": [
+									{
+										"system": "http://hl7.org/fhir/timing-abbreviation",
+										"code": "QD",
+										"display": "QD",
+										"userSelected": false
+									}
+								],
+								"text": "Daily"
+							}
+						},
+						"route": {
+							"coding": [
+								{
+									"system": "http://ncimeta.nci.nih.gov",
+									"code": "C38288",
+									"display": "ORAL",
+									"userSelected": false
+								},
+								{
+									"system": "http://snomed.info/sct",
+									"code": "26643006",
+									"display": "Oral route (qualifier value)",
+									"userSelected": false
+								}
+							],
+							"text": "Oral"
+						}
+					}
+				]
+			}
+		},
+		{
+			"resource": {
+				"id": "22294349",
+				"meta": {
+					"versionId": "0",
+					"lastUpdated": "2018-09-21T10:54:45",
+					"tag": [
+						{
+							"code": "Cerner",
+							"display": "Cerner"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-medicationstatement",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-medicationstatement",
+							"code": "NA",
+							"display": "Not Applicable"
+						}
+					]
+				},
+				"text": {
+					"status": "generated"
+				},
+				"resourceType": "MedicationStatement",
+				"status": "active",
+				"medicationCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+							"code": "5640",
+							"display": "Ibuprofen",
+							"userSelected": false
+						}
+					],
+					"text": "ibuprofen"
+				},
+				"effectivePeriod": {
+					"start": "2017-02-03T07:35:00.000-08:00"
+				},
+				"dateAsserted": "2017-02-03T09:35:47.000-06:00",
+				"informationSource": {
+					"reference": "Practitioner/4474007",
+					"display": "Pickering, Kathy"
+				},
+				"subject": {
+					"reference": "Patient/2345",
+					"display": "Timonen, Kimmo"
+				},
+				"taken": "y",
+				"dosage": [
+					{
+						"text": "400 mg, Oral, q8hr, PRN: pain",
+						"timing": {
+							"repeat": {
+								"boundsPeriod": {
+									"start": "2017-02-03T07:35:00.000-08:00"
+								}
+							},
+							"code": {
+								"text": "q8hr"
+							}
+						},
+						"asNeededCodeableConcept": {
+							"coding": [
+								{
+									"system": "http://snomed.info/sct",
+									"code": "22253000",
+									"display": "pain (finding)",
+									"userSelected": false
+								}
+							],
+							"text": "pain"
+						},
+						"route": {
+							"coding": [
+								{
+									"system": "http://ncimeta.nci.nih.gov",
+									"code": "C38288",
+									"display": "ORAL",
+									"userSelected": false
+								},
+								{
+									"system": "http://snomed.info/sct",
+									"code": "26643006",
+									"display": "Oral route (qualifier value)",
+									"userSelected": false
+								}
+							],
+							"text": "Oral"
+						}
+					}
+				]
+			}
+		},
+		{
+			"resource": {
+				"id": "22294351",
+				"meta": {
+					"versionId": "0",
+					"lastUpdated": "2018-09-21T10:54:45",
+					"tag": [
+						{
+							"code": "Cerner",
+							"display": "Cerner"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-medicationstatement",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-medicationstatement",
+							"code": "NA",
+							"display": "Not Applicable"
+						}
+					]
+				},
+				"text": {
+					"status": "generated"
+				},
+				"resourceType": "MedicationStatement",
+				"status": "active",
+				"medicationCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+							"code": "29046",
+							"display": "Lisinopril",
+							"userSelected": false
+						}
+					],
+					"text": "lisinopril"
+				},
+				"effectivePeriod": {
+					"start": "2017-02-03T09:00:00.000-08:00"
+				},
+				"dateAsserted": "2017-02-03T09:36:04.000-06:00",
+				"informationSource": {
+					"reference": "Practitioner/4474007",
+					"display": "Pickering, Kathy"
+				},
+				"subject": {
+					"reference": "Patient/2345",
+					"display": "Timonen, Kimmo"
+				},
+				"taken": "y",
+				"dosage": [
+					{
+						"text": "10 mg, Oral, BID",
+						"timing": {
+							"repeat": {
+								"boundsPeriod": {
+									"start": "2017-02-03T09:00:00.000-08:00"
+								}
+							},
+							"code": {
+								"coding": [
+									{
+										"system": "http://hl7.org/fhir/v3/GTSAbbreviation",
+										"code": "BID",
+										"display": "BID",
+										"userSelected": false
+									}
+								],
+								"text": "BID"
+							}
+						},
+						"route": {
+							"coding": [
+								{
+									"system": "http://ncimeta.nci.nih.gov",
+									"code": "C38288",
+									"display": "ORAL",
+									"userSelected": false
+								},
+								{
+									"system": "http://snomed.info/sct",
+									"code": "26643006",
+									"display": "Oral route (qualifier value)",
+									"userSelected": false
+								}
+							],
+							"text": "Oral"
+						}
+					}
+				]
+			}
+		},
+		{
+			"resource": {
+				"id": "22294345",
+				"meta": {
+					"versionId": "0",
+					"lastUpdated": "2018-09-21T10:54:45",
+					"tag": [
+						{
+							"code": "Cerner",
+							"display": "Cerner"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-medicationstatement",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-medicationstatement",
+							"code": "NA",
+							"display": "Not Applicable"
+						}
+					]
+				},
+				"text": {
+					"status": "generated"
+				},
+				"resourceType": "MedicationStatement",
+				"status": "active",
+				"medicationCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+							"code": "6809",
+							"display": "Metformin",
+							"userSelected": false
+						}
+					],
+					"text": "metformin"
+				},
+				"effectivePeriod": {
+					"start": "2017-02-03T09:00:00.000-08:00"
+				},
+				"dateAsserted": "2017-02-03T09:34:56.000-06:00",
+				"informationSource": {
+					"reference": "Practitioner/4474007",
+					"display": "Pickering, Kathy"
+				},
+				"subject": {
+					"reference": "Patient/2345",
+					"display": "Timonen, Kimmo"
+				},
+				"taken": "y",
+				"dosage": [
+					{
+						"text": "500 mg, Oral, BID",
+						"timing": {
+							"repeat": {
+								"boundsPeriod": {
+									"start": "2017-02-03T09:00:00.000-08:00"
+								}
+							},
+							"code": {
+								"coding": [
+									{
+										"system": "http://hl7.org/fhir/v3/GTSAbbreviation",
+										"code": "BID",
+										"display": "BID",
+										"userSelected": false
+									}
+								],
+								"text": "BID"
+							}
+						},
+						"route": {
+							"coding": [
+								{
+									"system": "http://ncimeta.nci.nih.gov",
+									"code": "C38288",
+									"display": "ORAL",
+									"userSelected": false
+								},
+								{
+									"system": "http://snomed.info/sct",
+									"code": "26643006",
+									"display": "Oral route (qualifier value)",
+									"userSelected": false
+								}
+							],
+							"text": "Oral"
+						}
+					}
+				]
+			}
+		},
+		{
+			"resource": {
+				"id": "22294563",
+				"meta": {
+					"versionId": "0",
+					"lastUpdated": "2018-09-21T10:54:45",
+					"tag": [
+						{
+							"code": "Cerner",
+							"display": "Cerner"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-medicationstatement",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-medicationstatement",
+							"code": "NA",
+							"display": "Not Applicable"
+						}
+					]
+				},
+				"text": {
+					"status": "generated"
+				},
+				"resourceType": "MedicationStatement",
+				"status": "active",
+				"medicationCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+							"code": "9997",
+							"display": "Spironolactone",
+							"userSelected": false
+						}
+					],
+					"text": "spironolactone"
+				},
+				"effectivePeriod": {
+					"start": "2017-02-03T14:37:00.000-08:00"
+				},
+				"dateAsserted": "2017-02-03T16:37:26.000-06:00",
+				"informationSource": {
+					"reference": "Practitioner/4474007",
+					"display": "Pickering, Kathy"
+				},
+				"subject": {
+					"reference": "Patient/2345",
+					"display": "Timonen, Kimmo"
+				},
+				"taken": "y",
+				"dosage": [
+					{
+						"text": "25 mg, Oral, BID",
+						"timing": {
+							"repeat": {
+								"boundsPeriod": {
+									"start": "2017-02-03T14:37:00.000-08:00"
+								}
+							},
+							"code": {
+								"coding": [
+									{
+										"system": "http://hl7.org/fhir/v3/GTSAbbreviation",
+										"code": "BID",
+										"display": "BID",
+										"userSelected": false
+									}
+								],
+								"text": "BID"
+							}
+						},
+						"route": {
+							"coding": [
+								{
+									"system": "http://ncimeta.nci.nih.gov",
+									"code": "C38288",
+									"display": "ORAL",
+									"userSelected": false
+								},
+								{
+									"system": "http://snomed.info/sct",
+									"code": "26643006",
+									"display": "Oral route (qualifier value)",
+									"userSelected": false
+								}
+							],
+							"text": "Oral"
+						}
+					}
+				]
+			}
+		},
+		{
+			"resource": {
+				"id": "22294347",
+				"meta": {
+					"versionId": "0",
+					"lastUpdated": "2018-09-21T10:54:45",
+					"tag": [
+						{
+							"code": "Cerner",
+							"display": "Cerner"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-medicationstatement",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-medicationstatement",
+							"code": "NA",
+							"display": "Not Applicable"
+						}
+					]
+				},
+				"text": {
+					"status": "generated"
+				},
+				"resourceType": "MedicationStatement",
+				"status": "active",
+				"medicationCodeableConcept": {
+					"coding": [
+						{
+							"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+							"code": "6851",
+							"display": "Methotrexate",
+							"userSelected": false
+						}
+					],
+					"text": "methotrexate"
+				},
+				"effectivePeriod": {
+					"start": "2017-02-03T08:00:00.000-08:00"
+				},
+				"dateAsserted": "2017-02-03T09:35:17.000-06:00",
+				"informationSource": {
+					"reference": "Practitioner/4474007",
+					"display": "Pickering, Kathy"
+				},
+				"subject": {
+					"reference": "Patient/2345",
+					"display": "Timonen, Kimmo"
+				},
+				"taken": "y",
+				"dosage": [
+					{
+						"text": "10 mg, Oral, qWeek",
+						"timing": {
+							"repeat": {
+								"boundsPeriod": {
+									"start": "2017-02-03T08:00:00.000-08:00"
+								}
+							},
+							"code": {
+								"text": "qWeek"
+							}
+						},
+						"route": {
+							"coding": [
+								{
+									"system": "http://ncimeta.nci.nih.gov",
+									"code": "C38288",
+									"display": "ORAL",
+									"userSelected": false
+								},
+								{
+									"system": "http://snomed.info/sct",
+									"code": "26643006",
+									"display": "Oral route (qualifier value)",
+									"userSelected": false
+								}
+							],
+							"text": "Oral"
+						}
+					}
+				]
+			}
+		}
+	]
+}

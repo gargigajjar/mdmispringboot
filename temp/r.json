@@ -1,0 +1,107 @@
+{
+	"resourceType": "Bundle",
+	"fhir_comments": [
+		"Generated using MDMI MISSING  MISSING"
+	],
+	"entry": [
+		{
+			"resource": {
+				"resourceType": "Patient",
+				"identifier": [
+					{
+						"system": "2.16.840.1.113883.19",
+						"value": "12345"
+					},
+					{
+						"system": "2.16.840.1.113883.4.1",
+						"value": "111-00-1234"
+					},
+					{
+						"system": "2.16.840.1.113883.19",
+						"value": "12345"
+					},
+					{
+						"system": "2.16.840.1.113883.4.1",
+						"value": "111-00-1234"
+					}
+				],
+				"name": [
+					{
+						"family": "Everyman",
+						"given": [
+							"Adam",
+							"Frankie"
+						],
+						"prefix": [
+							"Mr."
+						]
+					}
+				],
+				"gender": "Male",
+				"address": [
+					{
+						"line": [
+							"17 Daws Rd."
+						],
+						"city": "Blue Bell",
+						"state": "MA",
+						"postalCode": "02368",
+						"country": "US"
+					}
+				],
+				"maritalStatus": {
+					"coding": [
+						{
+							"system": "2.16.840.1.113883.5.2",
+							"code": "M",
+							"display": "Married"
+						}
+					],
+					"text": "Married"
+				},
+				"contact": [
+					{
+						"relationship": [
+							{
+								"coding": [
+									{
+										"system": "2.16.840.1.113883.5.111",
+										"code": "GRFTH",
+										"display": "Grandfather"
+									}
+								],
+								"text": "Grandfather"
+							}
+						],
+						"name": {
+							"family": "Relative",
+							"given": [
+								"Ralph"
+							]
+						},
+						"address": {
+							"line": [
+								"17 Daws Rd."
+							],
+							"city": "Blue Bell",
+							"state": "MA",
+							"postalCode": "02368",
+							"country": "US"
+						}
+					}
+				],
+				"communication": [
+					{
+						"language": {
+							"coding": [
+								{
+									"code": "fr-CN"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

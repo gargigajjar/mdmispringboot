@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<INSERTED>
+	<Dispense>DISPENSEDDRUG</Dispense>
+	<PatientID>sssss</PatientID>
+	<PatientName>xxx</PatientName>
+	<Signatura>DISPENSESIG</Signatura>
+	<Provider>82</Provider>
+</INSERTED>
+ </root>

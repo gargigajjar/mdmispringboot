@@ -1,0 +1,39 @@
+{
+	"medications": [
+		{
+			
+		},
+		{
+			"code": "202488",
+			"displayName": "Motrin"
+		},
+		{
+			"code": "131725",
+			"displayName": "Ambien"
+		},
+		{
+			"code": "2551",
+			"displayName": "Ciprofloxacin"
+		},
+		{
+			"code": "161",
+			"displayName": "Acetaminophen"
+		},
+		{
+			"code": "3407",
+			"displayName": "Digoxin"
+		},
+		{
+			"code": "403854",
+			"displayName": "Olmesartan Medoxomil-HCTZ 40-12.5 MG Oral Tablet"
+		},
+		{
+			"code": "221109",
+			"displayName": "Insulin, Regular, Pork"
+		},
+		{
+			"code": "6064",
+			"displayName": "Isotretinoin"
+		}
+	]
+}

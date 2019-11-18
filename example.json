@@ -1,0 +1,728 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Bundle",
+        "meta": {
+          "source": "LABS"
+        },
+        "type": "collection",
+        "entry": [
+          {
+            "resource": {
+              "resourceType": "DiagnosticReport",
+              "id": "QUB68ICWQK",
+              "code": {
+                "text": "Complete Blood Count"
+              },
+              "effectiveDateTime": "2011-03-04T08:30:00+11:00",
+              "performer": [
+                {
+                  "id": "ACME"
+                }
+              ],
+              "result": [
+                {
+                  "id": "HIV3N2AIJR"
+                },
+                {
+                  "id": "KIT83JETVO"
+                },
+                {
+                  "id": "N2EVC9AGPU"
+                },
+                {
+                  "id": "NJUWUIDHEC"
+                },
+                {
+                  "id": "F6NE35LWLJ"
+                },
+                {
+                  "id": "EZKTAUFSSD"
+                },
+                {
+                  "id": "HWRP0JRINE"
+                }
+              ]
+            }
+          },
+          {
+            "resource": {
+              "resourceType": "Observation",
+              "identifier": [
+                {
+                  "value": "HIV3N2AIJR"
+                }
+              ],
+              "status": "final",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "9157",
+                    "display": "fLKYjHwLzBNryNeHtFvpSGjfr"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 44,
+                "unit": "g/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "g/L"
+              },
+              "interpretation": [
+                {
+                  "text": "N"
+                }
+              ],
+              "referenceRange": [
+                {
+                  "low": {
+                    "value": 135
+                  },
+                  "high": {
+                    "value": 180
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "resource": {
+              "resourceType": "Observation",
+              "identifier": [
+                {
+                  "value": "KIT83JETVO"
+                }
+              ],
+              "status": "final",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "0928",
+                    "display": "NuNLgAJQEDRfkcPYSzpbkilxG"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 40,
+                "unit": "g/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "g/L"
+              },
+              "interpretation": [
+                {
+                  "text": "N"
+                }
+              ],
+              "referenceRange": [
+                {
+                  "low": {
+                    "value": 135
+                  },
+                  "high": {
+                    "value": 180
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "resource": {
+              "resourceType": "Observation",
+              "identifier": [
+                {
+                  "value": "N2EVC9AGPU"
+                }
+              ],
+              "status": "final",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "4263",
+                    "display": "qqqoFyNZLttFLNECpGcOlaUtp"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 19,
+                "unit": "g/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "g/L"
+              },
+              "interpretation": [
+                {
+                  "text": "N"
+                }
+              ],
+              "referenceRange": [
+                {
+                  "low": {
+                    "value": 135
+                  },
+                  "high": {
+                    "value": 180
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "resource": {
+              "resourceType": "Observation",
+              "identifier": [
+                {
+                  "value": "NJUWUIDHEC"
+                }
+              ],
+              "status": "final",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "7787",
+                    "display": "cGFNOdvyTnLGDCCMSTAvyGrMC"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 47,
+                "unit": "g/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "g/L"
+              },
+              "interpretation": [
+                {
+                  "text": "N"
+                }
+              ],
+              "referenceRange": [
+                {
+                  "low": {
+                    "value": 135
+                  },
+                  "high": {
+                    "value": 180
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "resource": {
+              "resourceType": "Observation",
+              "identifier": [
+                {
+                  "value": "F6NE35LWLJ"
+                }
+              ],
+              "status": "final",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "5586",
+                    "display": "WShIrnRUzSGoPubfbTGqQZdzo"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 41,
+                "unit": "g/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "g/L"
+              },
+              "interpretation": [
+                {
+                  "text": "N"
+                }
+              ],
+              "referenceRange": [
+                {
+                  "low": {
+                    "value": 135
+                  },
+                  "high": {
+                    "value": 180
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "resource": {
+              "resourceType": "Observation",
+              "identifier": [
+                {
+                  "value": "EZKTAUFSSD"
+                }
+              ],
+              "status": "final",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8885",
+                    "display": "yIsOesYsrHJqVCuibtPasIrXZ"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 45,
+                "unit": "g/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "g/L"
+              },
+              "interpretation": [
+                {
+                  "text": "N"
+                }
+              ],
+              "referenceRange": [
+                {
+                  "low": {
+                    "value": 135
+                  },
+                  "high": {
+                    "value": 180
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "resource": {
+              "resourceType": "Observation",
+              "identifier": [
+                {
+                  "value": "HWRP0JRINE"
+                }
+              ],
+              "status": "final",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "2315",
+                    "display": "GhgWorlyuwiqbXyByUozhDRTK"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 19,
+                "unit": "g/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "g/L"
+              },
+              "interpretation": [
+                {
+                  "text": "N"
+                }
+              ],
+              "referenceRange": [
+                {
+                  "low": {
+                    "value": 135
+                  },
+                  "high": {
+                    "value": 180
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "resource": {
+              "resourceType": "DiagnosticReport",
+              "id": "WP7ZNT8ZMX",
+              "code": {
+                "text": "Complete Blood Count"
+              },
+              "effectiveDateTime": "2011-03-04T08:30:00+11:00",
+              "performer": [
+                {
+                  "id": "ACME"
+                }
+              ],
+              "result": [
+                {
+                  "id": "GUSUUGPTQV"
+                },
+                {
+                  "id": "TPDD66HOID"
+                },
+                {
+                  "id": "PXIKSNASOS"
+                }
+              ]
+            }
+          },
+          {
+            "resource": {
+              "resourceType": "Observation",
+              "identifier": [
+                {
+                  "value": "GUSUUGPTQV"
+                }
+              ],
+              "status": "final",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "5258",
+                    "display": "dfSvoNuTVcihYwZyKFoezqZTe"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 46,
+                "unit": "g/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "g/L"
+              },
+              "interpretation": [
+                {
+                  "text": "N"
+                }
+              ],
+              "referenceRange": [
+                {
+                  "low": {
+                    "value": 135
+                  },
+                  "high": {
+                    "value": 180
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "resource": {
+              "resourceType": "Observation",
+              "identifier": [
+                {
+                  "value": "TPDD66HOID"
+                }
+              ],
+              "status": "final",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "1721",
+                    "display": "WLrDHsmpDbVzqJiVTUTJsPuMo"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 19,
+                "unit": "g/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "g/L"
+              },
+              "interpretation": [
+                {
+                  "text": "N"
+                }
+              ],
+              "referenceRange": [
+                {
+                  "low": {
+                    "value": 135
+                  },
+                  "high": {
+                    "value": 180
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "resource": {
+              "resourceType": "Observation",
+              "identifier": [
+                {
+                  "value": "PXIKSNASOS"
+                }
+              ],
+              "status": "final",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "4337",
+                    "display": "GFsGCvCtEFRikWauqvQZuKuZS"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 3,
+                "unit": "g/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "g/L"
+              },
+              "interpretation": [
+                {
+                  "text": "N"
+                }
+              ],
+              "referenceRange": [
+                {
+                  "low": {
+                    "value": 135
+                  },
+                  "high": {
+                    "value": 180
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "resource": {
+              "resourceType": "DiagnosticReport",
+              "id": "0SBIQGM7BG",
+              "code": {
+                "text": "Complete Blood Count"
+              },
+              "effectiveDateTime": "2011-03-04T08:30:00+11:00",
+              "performer": [
+                {
+                  "id": "ACME"
+                }
+              ],
+              "result": [
+                {
+                  "id": "9BYOEXSFHQ"
+                },
+                {
+                  "id": "WV3RG0A7PR"
+                },
+                {
+                  "id": "RMQ8ACCTBK"
+                },
+                {
+                  "id": "OOROXAWF3P"
+                },
+                {
+                  "id": "LZE651ARTP"
+                }
+              ]
+            }
+          },
+          {
+            "resource": {
+              "resourceType": "Observation",
+              "identifier": [
+                {
+                  "value": "9BYOEXSFHQ"
+                }
+              ],
+              "status": "final",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "3523",
+                    "display": "bLecMAZTjCcDhtbFgDYWHwKMx"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 39,
+                "unit": "g/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "g/L"
+              },
+              "interpretation": [
+                {
+                  "text": "N"
+                }
+              ],
+              "referenceRange": [
+                {
+                  "low": {
+                    "value": 135
+                  },
+                  "high": {
+                    "value": 180
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "resource": {
+              "resourceType": "Observation",
+              "identifier": [
+                {
+                  "value": "WV3RG0A7PR"
+                }
+              ],
+              "status": "final",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "6272",
+                    "display": "ubEHYjDVNOlIRILtRwdyrNnBu"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 6,
+                "unit": "g/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "g/L"
+              },
+              "interpretation": [
+                {
+                  "text": "N"
+                }
+              ],
+              "referenceRange": [
+                {
+                  "low": {
+                    "value": 135
+                  },
+                  "high": {
+                    "value": 180
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "resource": {
+              "resourceType": "Observation",
+              "identifier": [
+                {
+                  "value": "RMQ8ACCTBK"
+                }
+              ],
+              "status": "final",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "2345",
+                    "display": "NLBpKTuYxkVSmFwNijUSyZZrt"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 22,
+                "unit": "g/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "g/L"
+              },
+              "interpretation": [
+                {
+                  "text": "N"
+                }
+              ],
+              "referenceRange": [
+                {
+                  "low": {
+                    "value": 135
+                  },
+                  "high": {
+                    "value": 180
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "resource": {
+              "resourceType": "Observation",
+              "identifier": [
+                {
+                  "value": "OOROXAWF3P"
+                }
+              ],
+              "status": "final",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "6064",
+                    "display": "AGRSayfcYKjZKPLmwImStSGSG"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 1,
+                "unit": "g/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "g/L"
+              },
+              "interpretation": [
+                {
+                  "text": "N"
+                }
+              ],
+              "referenceRange": [
+                {
+                  "low": {
+                    "value": 135
+                  },
+                  "high": {
+                    "value": 180
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "resource": {
+              "resourceType": "Observation",
+              "identifier": [
+                {
+                  "value": "LZE651ARTP"
+                }
+              ],
+              "status": "final",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "2507",
+                    "display": "CtnHZhmYnxbshLMeprFCvmQCE"
+                  }
+                ]
+              },
+              "valueQuantity": {
+                "value": 23,
+                "unit": "g/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "g/L"
+              },
+              "interpretation": [
+                {
+                  "text": "N"
+                }
+              ],
+              "referenceRange": [
+                {
+                  "low": {
+                    "value": 135
+                  },
+                  "high": {
+                    "value": 180
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

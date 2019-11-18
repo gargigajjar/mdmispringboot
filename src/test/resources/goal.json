@@ -1,0 +1,26 @@
+{
+	"goal": {
+		"code": {
+			"coding": [
+				{
+					"system": "http://snomed.info/",
+					"code": "365845005",
+					"display": "Haemoglobin A1C - diabetic control finding"
+				}
+			],
+			"text": "Haemoglobin A1C - diabetic control finding"
+		},
+		"range": {
+			"low": {
+				"value": 7,
+				"unit": "%",
+				"system": "http://unitsofmeasure.org"
+			},
+			"high": {
+				"value": 9,
+				"unit": "%",
+				"system": "http://unitsofmeasure.org"
+			}
+		}
+	}
+}

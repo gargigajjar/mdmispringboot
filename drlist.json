@@ -1,0 +1,556 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "MES4YDOO7BX3OVV",
+        "masterIdentifier": {
+          "id": "MES4YDOO7BX3OVV"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "code": "loinc"
+            }
+          ],
+          "text": "Lab Report"
+        },
+        "subject": {
+          "id": "NIVVTNFJVSXZPI6"
+        },
+        "date": "2019-06-11T17:18:16.009-04:00",
+        "author": [
+          {
+            "id": "UM5OLOMPDXDVQZE",
+            "display": "author name"
+          }
+        ],
+        "custodian": {
+          "id": "UM5OLOMPDXDVQZE",
+          "display": "custodian name"
+        },
+        "context": {
+          "event": [
+            {
+              "coding": [
+                {
+                  "code": "eventtypecode"
+                }
+              ]
+            }
+          ],
+          "period": {
+            "start": "2019-06-11T17:18:16-04:00",
+            "end": "2019-06-11T17:18:16-04:00"
+          },
+          "facilityType": {
+            "coding": [
+              {
+                "code": "facilitytypecode"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "MDU6ZBLV9GLMZSC",
+        "masterIdentifier": {
+          "id": "MDU6ZBLV9GLMZSC"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "code": "loinc"
+            }
+          ],
+          "text": "Lab Report"
+        },
+        "subject": {
+          "id": "NIVVTNFJVSXZPI6"
+        },
+        "date": "2019-06-11T17:18:16.012-04:00",
+        "author": [
+          {
+            "id": "37UJAUL6UFACR1W",
+            "display": "author name"
+          }
+        ],
+        "custodian": {
+          "id": "37UJAUL6UFACR1W",
+          "display": "custodian name"
+        },
+        "context": {
+          "event": [
+            {
+              "coding": [
+                {
+                  "code": "eventtypecode"
+                }
+              ]
+            }
+          ],
+          "period": {
+            "start": "2019-06-11T17:18:16-04:00",
+            "end": "2019-06-11T17:18:16-04:00"
+          },
+          "facilityType": {
+            "coding": [
+              {
+                "code": "facilitytypecode"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "ENKHDE5DTMQ6EG6",
+        "masterIdentifier": {
+          "id": "ENKHDE5DTMQ6EG6"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "code": "loinc"
+            }
+          ],
+          "text": "Lab Report"
+        },
+        "subject": {
+          "id": "NIVVTNFJVSXZPI6"
+        },
+        "date": "2019-06-11T17:18:16.012-04:00",
+        "author": [
+          {
+            "id": "RFPGG3XV6LURNHO",
+            "display": "author name"
+          }
+        ],
+        "custodian": {
+          "id": "RFPGG3XV6LURNHO",
+          "display": "custodian name"
+        },
+        "context": {
+          "event": [
+            {
+              "coding": [
+                {
+                  "code": "eventtypecode"
+                }
+              ]
+            }
+          ],
+          "period": {
+            "start": "2019-06-11T17:18:16-04:00",
+            "end": "2019-06-11T17:18:16-04:00"
+          },
+          "facilityType": {
+            "coding": [
+              {
+                "code": "facilitytypecode"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "CM6BO5EXJTI8PTM",
+        "masterIdentifier": {
+          "id": "CM6BO5EXJTI8PTM"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "code": "loinc"
+            }
+          ],
+          "text": "Lab Report"
+        },
+        "subject": {
+          "id": "NIVVTNFJVSXZPI6"
+        },
+        "date": "2019-06-11T17:18:16.012-04:00",
+        "author": [
+          {
+            "id": "NAN5NU7C69HG9BC",
+            "display": "author name"
+          }
+        ],
+        "custodian": {
+          "id": "NAN5NU7C69HG9BC",
+          "display": "custodian name"
+        },
+        "context": {
+          "event": [
+            {
+              "coding": [
+                {
+                  "code": "eventtypecode"
+                }
+              ]
+            }
+          ],
+          "period": {
+            "start": "2019-06-11T17:18:16-04:00",
+            "end": "2019-06-11T17:18:16-04:00"
+          },
+          "facilityType": {
+            "coding": [
+              {
+                "code": "facilitytypecode"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "LCNHWMHZ8LDBIUK",
+        "masterIdentifier": {
+          "id": "LCNHWMHZ8LDBIUK"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "code": "loinc"
+            }
+          ],
+          "text": "Lab Report"
+        },
+        "subject": {
+          "id": "NIVVTNFJVSXZPI6"
+        },
+        "date": "2019-06-11T17:18:16.012-04:00",
+        "author": [
+          {
+            "id": "TKDOF94OHBS4OFE",
+            "display": "author name"
+          }
+        ],
+        "custodian": {
+          "id": "TKDOF94OHBS4OFE",
+          "display": "custodian name"
+        },
+        "context": {
+          "event": [
+            {
+              "coding": [
+                {
+                  "code": "eventtypecode"
+                }
+              ]
+            }
+          ],
+          "period": {
+            "start": "2019-06-11T17:18:16-04:00",
+            "end": "2019-06-11T17:18:16-04:00"
+          },
+          "facilityType": {
+            "coding": [
+              {
+                "code": "facilitytypecode"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "GGJT80ACRDQ5JOE",
+        "masterIdentifier": {
+          "id": "GGJT80ACRDQ5JOE"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "code": "loinc"
+            }
+          ],
+          "text": "Lab Report"
+        },
+        "subject": {
+          "id": "NIVVTNFJVSXZPI6"
+        },
+        "date": "2019-06-11T17:18:16.012-04:00",
+        "author": [
+          {
+            "id": "Q6BJCUAV11BVWRB",
+            "display": "author name"
+          }
+        ],
+        "custodian": {
+          "id": "Q6BJCUAV11BVWRB",
+          "display": "custodian name"
+        },
+        "context": {
+          "event": [
+            {
+              "coding": [
+                {
+                  "code": "eventtypecode"
+                }
+              ]
+            }
+          ],
+          "period": {
+            "start": "2019-06-11T17:18:16-04:00",
+            "end": "2019-06-11T17:18:16-04:00"
+          },
+          "facilityType": {
+            "coding": [
+              {
+                "code": "facilitytypecode"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "RIPM3PUCJY6DLQU",
+        "masterIdentifier": {
+          "id": "RIPM3PUCJY6DLQU"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "code": "loinc"
+            }
+          ],
+          "text": "Lab Report"
+        },
+        "subject": {
+          "id": "NIVVTNFJVSXZPI6"
+        },
+        "date": "2019-06-11T17:18:16.012-04:00",
+        "author": [
+          {
+            "id": "QDT0UDKCQPMFP65",
+            "display": "author name"
+          }
+        ],
+        "custodian": {
+          "id": "QDT0UDKCQPMFP65",
+          "display": "custodian name"
+        },
+        "context": {
+          "event": [
+            {
+              "coding": [
+                {
+                  "code": "eventtypecode"
+                }
+              ]
+            }
+          ],
+          "period": {
+            "start": "2019-06-11T17:18:16-04:00",
+            "end": "2019-06-11T17:18:16-04:00"
+          },
+          "facilityType": {
+            "coding": [
+              {
+                "code": "facilitytypecode"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "7E0HZYLTAVIOI9J",
+        "masterIdentifier": {
+          "id": "7E0HZYLTAVIOI9J"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "code": "loinc"
+            }
+          ],
+          "text": "Lab Report"
+        },
+        "subject": {
+          "id": "NIVVTNFJVSXZPI6"
+        },
+        "date": "2019-06-11T17:18:16.012-04:00",
+        "author": [
+          {
+            "id": "69NMZSJBWYJ1NYG",
+            "display": "author name"
+          }
+        ],
+        "custodian": {
+          "id": "69NMZSJBWYJ1NYG",
+          "display": "custodian name"
+        },
+        "context": {
+          "event": [
+            {
+              "coding": [
+                {
+                  "code": "eventtypecode"
+                }
+              ]
+            }
+          ],
+          "period": {
+            "start": "2019-06-11T17:18:16-04:00",
+            "end": "2019-06-11T17:18:16-04:00"
+          },
+          "facilityType": {
+            "coding": [
+              {
+                "code": "facilitytypecode"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "8J7GK9ODOHOUPIO",
+        "masterIdentifier": {
+          "id": "8J7GK9ODOHOUPIO"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "code": "loinc"
+            }
+          ],
+          "text": "Lab Report"
+        },
+        "subject": {
+          "id": "NIVVTNFJVSXZPI6"
+        },
+        "date": "2019-06-11T17:18:16.014-04:00",
+        "author": [
+          {
+            "id": "7SU6KPCJNZUEHKC",
+            "display": "author name"
+          }
+        ],
+        "custodian": {
+          "id": "7SU6KPCJNZUEHKC",
+          "display": "custodian name"
+        },
+        "context": {
+          "event": [
+            {
+              "coding": [
+                {
+                  "code": "eventtypecode"
+                }
+              ]
+            }
+          ],
+          "period": {
+            "start": "2019-06-11T17:18:16-04:00",
+            "end": "2019-06-11T17:18:16-04:00"
+          },
+          "facilityType": {
+            "coding": [
+              {
+                "code": "facilitytypecode"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "CM3QXUSHDXZJEHB",
+        "masterIdentifier": {
+          "id": "CM3QXUSHDXZJEHB"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "code": "loinc"
+            }
+          ],
+          "text": "Lab Report"
+        },
+        "subject": {
+          "id": "NIVVTNFJVSXZPI6"
+        },
+        "date": "2019-06-11T17:18:16.015-04:00",
+        "author": [
+          {
+            "id": "CERJQYN1TM6UB1T",
+            "display": "author name"
+          }
+        ],
+        "custodian": {
+          "id": "CERJQYN1TM6UB1T",
+          "display": "custodian name"
+        },
+        "context": {
+          "event": [
+            {
+              "coding": [
+                {
+                  "code": "eventtypecode"
+                }
+              ]
+            }
+          ],
+          "period": {
+            "start": "2019-06-11T17:18:16-04:00",
+            "end": "2019-06-11T17:18:16-04:00"
+          },
+          "facilityType": {
+            "coding": [
+              {
+                "code": "facilitytypecode"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

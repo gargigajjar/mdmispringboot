@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Generated using MDMI MISSING  MISSING--><Bundle>
+   <type value="searchset"/>
+   <entry>
+      <resource>
+         <Patient>
+            <identifier>
+               <system value="2.16.840.1.113883.4.1"/>
+               <value value="111-00-1234"/>
+            </identifier>
+            <identifier>
+               <system value="2.16.840.1.113883.19"/>
+               <value value="12345"/>
+            </identifier>
+            <identifier>
+               <system value="2.16.840.1.113883.4.1"/>
+               <value value="111-00-1234"/>
+            </identifier>
+            <identifier>
+               <system value="2.16.840.1.113883.19"/>
+               <value value="12345"/>
+            </identifier>
+            <name>
+               <family value="Everyman"/>
+               <given value="Adam"/>
+               <given value="Frankie"/>
+               <prefix value="Mr."/>
+            </name>
+            <telecom/>
+            <gender value="male"/>
+            <birthDate/>
+            <address>
+               <city value="Blue Bell"/>
+               <country value="US"/>
+               <line value="17 Daws Rd."/>
+               <postalCode value="02368"/>
+               <state value="MA"/>
+            </address>
+            <maritalStatus>
+               <coding>
+                  <code value="M"/>
+                  <display value="Married"/>
+                  <system value="2.16.840.1.113883.5.2"/>
+               </coding>
+               <text value="Married"/>
+            </maritalStatus>
+            <contact>
+               <relationship>
+                  <coding>
+                     <code value="GRFTH"/>
+                     <display value="Grandfather"/>
+                     <system value="2.16.840.1.113883.5.111"/>
+                  </coding>
+                  <text value="Grandfather"/>
+               </relationship>
+               <name>
+                  <family value="Relative"/>
+                  <given value="Ralph"/>
+               </name>
+               <telecom/>
+               <address>
+                  <city value="Blue Bell"/>
+                  <country value="US"/>
+                  <line value="17 Daws Rd."/>
+                  <postalCode value="02368"/>
+                  <state value="MA"/>
+               </address>
+            </contact>
+            <communication>
+               <language>
+                  <coding>
+                     <code value="fr-CN"/>
+                  </coding>
+               </language>
+            </communication>
+         </Patient>
+      </resource>
+   </entry>
+   <entry>
+      <resource>
+         <Bundle>
+            <type value="collection"/>
+            <meta>
+               <source>LABS</source>
+            </meta>
+            <entry>
+               <resource>
+                  <DiagnosticReport>
+                     <code>
+                        <coding>
+                           <code value="43789009"/>
+                           <display value="CBC WO DIFFERENTIAL"/>
+                           <system value="2.16.840.1.113883.6.96"/>
+                        </coding>
+                        <text value="CBC WO DIFFERENTIAL"/>
+                     </code>
+                  </DiagnosticReport>
+               </resource>
+            </entry>
+            <entry>
+               <resource>
+                  <DiagnosticReport>
+                     <code>
+                        <coding>
+                           <code value="43789009"/>
+                           <display value="CBC WO DIFFERENTIAL"/>
+                           <system value="2.16.840.1.113883.6.96"/>
+                        </coding>
+                        <text value="CBC WO DIFFERENTIAL"/>
+                     </code>
+                  </DiagnosticReport>
+               </resource>
+            </entry>
+         </Bundle>
+      </resource>
+   </entry>
+</Bundle>

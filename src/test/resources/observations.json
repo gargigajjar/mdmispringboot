@@ -1,0 +1,5570 @@
+{
+	"resourceType": "Bundle",
+	"type": "searchset",
+	"total": 82,
+	"link": [
+		{
+			"relation": "next",
+			"url": "_pagelink?_link_id=DnF1ZXJ5VGhlbkZldGNoBQAAAAAAKz-mFlZJdEZXMHUwUkYyb3JzczdJeFhJVncAAAAAACs_pBZWSXRGVzB1MFJGMm9yc3M3SXhYSVZ3AAAAAAArP6UWVkl0RlcwdTBSRjJvcnNzN0l4WElWdwAAAAAAKz-nFlZJdEZXMHUwUkYyb3JzczdJeFhJVncAAAAAACs_qBZWSXRGVzB1MFJGMm9yc3M3SXhYSVZ3"
+		}
+	],
+	"entry": [
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29117",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "27113001",
+							"display": "Body weight"
+						}
+					],
+					"text": "Body weight"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2013-11-19T00:00:00+00:00",
+				"issued": "2013-11-19T00:00:00.000+00:00",
+				"valueString": "258"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29124",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "27113001",
+							"display": "Body weight"
+						}
+					],
+					"text": "Body weight"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2014-09-22T00:00:00+00:00",
+				"issued": "2014-09-22T00:00:00.000+00:00",
+				"valueString": "259"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29119",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "75367002",
+							"display": "Blood pressure"
+						}
+					],
+					"text": "Blood pressure"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2014-09-22T00:00:00+00:00",
+				"issued": "2014-09-22T00:00:00.000+00:00",
+				"valueString": "128/69"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29125",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "75367002",
+							"display": "Blood pressure"
+						}
+					],
+					"text": "Blood pressure"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2014-12-01T00:00:00+00:00",
+				"issued": "2014-12-01T00:00:00.000+00:00",
+				"valueString": "126/69"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29121",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "252465000",
+							"display": "Pulse oximetry"
+						}
+					],
+					"text": "Pulse oximetry"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2014-09-22T00:00:00+00:00",
+				"issued": "2014-09-22T00:00:00.000+00:00",
+				"valueString": "95"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_601.84_100005_601.92_100005",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "survey",
+								"display": "Survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "715252007",
+							"display": "PHQ9 Result"
+						}
+					],
+					"text": "PHQ9 Result"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2014-09-22T18:50:39+00:00",
+				"issued": "2014-09-22T18:50:39.000+00:00",
+				"performer": [
+					{
+						"reference": "Practitioner/PROVIDER,FIVE",
+						"identifier": {
+							"system": "urn:dxc:vista:provider",
+							"value": "PROVIDER,FIVE"
+						},
+						"display": "PROVIDER,FIVE"
+					},
+					{
+						"reference": "Location/PRIMARY+CARE",
+						"identifier": {
+							"system": "urn:dxc:vista:location",
+							"value": "PRIMARY CARE"
+						},
+						"display": "PRIMARY CARE"
+					}
+				],
+				"valueQuantity": {
+					"value": 1,
+					"unit": "Total"
+				}
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_601.84_100004_601.92_100004",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "survey",
+								"display": "Survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"display": "GAD-7 Result"
+						}
+					],
+					"text": "GAD-7 Result"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2013-11-19T13:56:00+00:00",
+				"issued": "2013-11-19T13:56:00.000+00:00",
+				"performer": [
+					{
+						"reference": "Practitioner/PROVIDER,FIVE",
+						"identifier": {
+							"system": "urn:dxc:vista:provider",
+							"value": "PROVIDER,FIVE"
+						},
+						"display": "PROVIDER,FIVE"
+					},
+					{
+						"reference": "Location/GENERAL+MEDICINE",
+						"identifier": {
+							"system": "urn:dxc:vista:location",
+							"value": "GENERAL MEDICINE"
+						},
+						"display": "GENERAL MEDICINE"
+					}
+				],
+				"valueQuantity": {
+					"value": 2,
+					"unit": "Anxiety"
+				}
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_63_673_63.04_6849278.916099_63.07_3",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "1917-4",
+							"display": "ASPARTATE AMINOTRANSFERASE"
+						}
+					],
+					"text": "ASPARTATE AMINOTRANSFERASE"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2015-07-20T13:39:01+00:00",
+				"issued": "2015-07-20T13:39:01.000+00:00",
+				"valueString": "30"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_63_673_63.04_6849685.8656_63.07_1",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "****-*",
+							"display": "TSH"
+						}
+					],
+					"text": "TSH"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2015-03-13T18:44:00+00:00",
+				"issued": "2015-03-13T18:44:00.000+00:00",
+				"valueString": "3.6"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_63_673_63.04_6868879.907298_63.07_1",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "****-*",
+							"display": "TSH"
+						}
+					],
+					"text": "TSH"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2013-11-19T14:27:02+00:00",
+				"issued": "2013-11-19T14:27:02.000+00:00",
+				"valueString": "4.1"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_63_673_63.04_6868879.9073_63.07_1",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "1775-6",
+							"display": "ALKALINE PHOSPHATASE"
+						}
+					],
+					"text": "ALKALINE PHOSPHATASE"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2013-11-19T14:27:00+00:00",
+				"issued": "2013-11-19T14:27:00.000+00:00",
+				"valueString": "114"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_28546",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:52:45",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "27113001",
+							"display": "Body weight"
+						}
+					],
+					"text": "Body weight"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001522V244879"
+					}
+				},
+				"effectiveDateTime": "2015-04-16T00:00:00+00:00",
+				"issued": "2015-04-16T00:00:00.000+00:00",
+				"valueString": "150lblb"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_9000010.23_721",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:52:45",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "social-history",
+								"display": "Social History"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"display": "HTN NO MED CHANGE - SIDE EFFECTS FROM RX"
+						}
+					],
+					"text": "HTN NO MED CHANGE - SIDE EFFECTS FROM RX"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001522V244879"
+					}
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/PROGRAMMER,ONE",
+						"identifier": {
+							"system": "urn:dxc:vista:provider",
+							"value": "PROGRAMMER,ONE"
+						},
+						"display": "PROGRAMMER,ONE"
+					}
+				]
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_9000010.23_725",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:52:45",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "social-history",
+								"display": "Social History"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"display": "OUTSIDE SCREENING FOR AAA"
+						}
+					],
+					"text": "OUTSIDE SCREENING FOR AAA"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001522V244879"
+					}
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/PROGRAMMER,ONE",
+						"identifier": {
+							"system": "urn:dxc:vista:provider",
+							"value": "PROGRAMMER,ONE"
+						},
+						"display": "PROGRAMMER,ONE"
+					}
+				]
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29332",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "27113001",
+							"display": "Body weight"
+						}
+					],
+					"text": "Body weight"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2015-07-20T00:00:00+00:00",
+				"issued": "2015-07-20T00:00:00.000+00:00",
+				"valueString": "260"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29118",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "50373000",
+							"display": "Body height"
+						}
+					],
+					"text": "Body height"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2013-11-19T00:00:00+00:00",
+				"issued": "2013-11-19T00:00:00.000+00:00",
+				"valueString": "64"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29131",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "75367002",
+							"display": "Blood pressure"
+						}
+					],
+					"text": "Blood pressure"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2015-03-01T00:00:00+00:00",
+				"issued": "2015-03-01T00:00:00.000+00:00",
+				"valueString": "137/78"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29113",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "78564009",
+							"display": "Pulse rate"
+						}
+					],
+					"text": "Pulse rate"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2013-11-19T00:00:00+00:00",
+				"issued": "2013-11-19T00:00:00.000+00:00",
+				"valueString": "79"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29327",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "78564009",
+							"display": "Pulse rate"
+						}
+					],
+					"text": "Pulse rate"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2015-07-20T00:00:00+00:00",
+				"issued": "2015-07-20T00:00:00.000+00:00",
+				"valueString": "70"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29127",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "252465000",
+							"display": "Pulse oximetry"
+						}
+					],
+					"text": "Pulse oximetry"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2014-12-01T00:00:00+00:00",
+				"issued": "2014-12-01T00:00:00.000+00:00",
+				"valueString": "96"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29122",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "386725007",
+							"display": "Body Temperature"
+						}
+					],
+					"text": "Body Temperature"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2014-09-22T00:00:00+00:00",
+				"issued": "2014-09-22T00:00:00.000+00:00",
+				"valueString": "98.4"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_601.84_100015_601.92_100015",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "survey",
+								"display": "Survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "715252007",
+							"display": "PHQ9 Result"
+						}
+					],
+					"text": "PHQ9 Result"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2015-07-20T18:33:00+00:00",
+				"issued": "2015-07-20T18:33:00.000+00:00",
+				"performer": [
+					{
+						"reference": "Practitioner/PROVIDER,FIVE",
+						"identifier": {
+							"system": "urn:dxc:vista:provider",
+							"value": "PROVIDER,FIVE"
+						},
+						"display": "PROVIDER,FIVE"
+					},
+					{
+						"reference": "Location/PRIMARY+CARE",
+						"identifier": {
+							"system": "urn:dxc:vista:location",
+							"value": "PRIMARY CARE"
+						},
+						"display": "PRIMARY CARE"
+					}
+				],
+				"valueQuantity": {
+					"value": 1,
+					"unit": "Total"
+				}
+			}
+		},
+		{
+			"resource": {
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "survey",
+								"display": "Survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "715252007",
+							"display": "PHQ9 Result"
+						}
+					],
+					"text": "PHQ9 Result"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2013-11-19T13:53:00+00:00",
+				"issued": "2013-11-19T13:53:00.000+00:00",
+				"performer": [
+					{
+						"reference": "Practitioner/PROVIDER,FIVE",
+						"identifier": {
+							"system": "urn:dxc:vista:provider",
+							"value": "PROVIDER,FIVE"
+						},
+						"display": "PROVIDER,FIVE"
+					},
+					{
+						"reference": "Location/GENERAL+MEDICINE",
+						"identifier": {
+							"system": "urn:dxc:vista:location",
+							"value": "GENERAL MEDICINE"
+						},
+						"display": "GENERAL MEDICINE"
+					}
+				],
+				"valueQuantity": {
+					"value": 2,
+					"unit": "Total"
+				}
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_63_673_63.04_6849278.916099_63.07_2",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "1775-6",
+							"display": "ALKALINE PHOSPHATASE"
+						}
+					],
+					"text": "ALKALINE PHOSPHATASE"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2015-07-20T13:39:01+00:00",
+				"issued": "2015-07-20T13:39:01.000+00:00",
+				"valueString": "86"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_63_673_63.04_6849685.865599_63.07_1",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "2003-2",
+							"display": "CALCIUM"
+						}
+					],
+					"text": "CALCIUM"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2015-03-13T18:44:01+00:00",
+				"issued": "2015-03-13T18:44:01.000+00:00",
+				"valueString": "9.7"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_63_673_63.04_6868879.907297_63.07_2",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "2085-9",
+							"display": "CHOLESTEROL.IN HDL"
+						}
+					],
+					"text": "CHOLESTEROL.IN HDL"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2013-11-19T14:27:03+00:00",
+				"issued": "2013-11-19T14:27:03.000+00:00",
+				"valueString": "51"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_63_673_63.04_6868879.907297_63.07_3",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "2089-1",
+							"display": "CHOLESTEROL.IN LDL"
+						}
+					],
+					"text": "CHOLESTEROL.IN LDL"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2013-11-19T14:27:03+00:00",
+				"issued": "2013-11-19T14:27:03.000+00:00",
+				"valueString": "144"
+			}
+		},
+		{
+			"resource": {
+				"id": "24379300071",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:52:30",
+					"profile": [
+						"http://hl7.org/fhir/StructureDefinition/vitalsigns"
+					],
+					"tag": [
+						{
+							"code": "Allscripts",
+							"display": "Allscripts"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"language": "en-US",
+				"text": {
+					"status": "generated"
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						],
+						"text": "Vital Signs"
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "3140-1",
+							"display": "BSA Calculated"
+						}
+					],
+					"text": "BSA Calculated"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"display": "Anyman,Bob "
+				},
+				"context": {
+					"reference": "Encounter/70596",
+					"display": "Appointment"
+				},
+				"effectiveDateTime": "2015-06-30T10:30:00-04:00",
+				"performer": [
+					{
+						"reference": "Practitioner/9",
+						"display": "Allscripts,AppAdmin "
+					}
+				],
+				"valueQuantity": {
+					"value": 2.08999991416931,
+					"unit": "m2",
+					"system": "http://unitsofmeasure.org"
+				}
+			}
+		},
+		{
+			"resource": {
+				"id": "24379300075",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:52:30",
+					"profile": [
+						"http://hl7.org/fhir/StructureDefinition/vitalsigns"
+					],
+					"tag": [
+						{
+							"code": "Allscripts",
+							"display": "Allscripts"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"language": "en-US",
+				"text": {
+					"status": "generated"
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						],
+						"text": "Vital Signs"
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "3141-9",
+							"display": "Weight"
+						}
+					],
+					"text": "Weight"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"display": "Anyman,Bob "
+				},
+				"context": {
+					"reference": "Encounter/70596",
+					"display": "Appointment"
+				},
+				"effectiveDateTime": "2015-06-30T10:30:00-04:00",
+				"performer": [
+					{
+						"reference": "Practitioner/9",
+						"display": "Allscripts,AppAdmin "
+					}
+				],
+				"valueQuantity": {
+					"value": 216,
+					"unit": "lb        ",
+					"system": "http://unitsofmeasure.org"
+				},
+				"dataAbsentReason": {
+					"coding": [
+						{
+							"code": "3141-9",
+							"display": "Weight"
+						}
+					],
+					"text": "216-0"
+				}
+			}
+		},
+		{
+			"resource": {
+				"id": "24379300049",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:52:30",
+					"profile": [
+						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
+					],
+					"tag": [
+						{
+							"code": "Allscripts",
+							"display": "Allscripts"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"language": "en-US",
+				"text": {
+					"status": "generated"
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						],
+						"text": "Laboratory"
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://www.ama-assn.org/go/cpt",
+							"code": "83036",
+							"display": "Hemoglobin A1C"
+						},
+						{
+							"code": "TWHGBA1C",
+							"display": "Hemoglobin A1C"
+						}
+					],
+					"text": "Hb A1c"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"display": "Anyman,Bob "
+				},
+				"context": {
+					"reference": "Encounter/70596",
+					"display": "Appointment"
+				},
+				"effectiveDateTime": "2015-06-22T10:00:00-04:00",
+				"performer": [
+					{
+						"reference": "Practitioner/9",
+						"display": "Allscripts,AppAdmin "
+					}
+				],
+				"valueQuantity": {
+					"value": 7.8
+				},
+				"referenceRange": [
+					{
+						"text": "< 6.0"
+					}
+				]
+			}
+		},
+		{
+			"resource": {
+				"id": "442_130_1014",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:52:39",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "social-history",
+								"display": "Social History"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "75624-7",
+							"display": "5 or more drinks"
+						}
+					],
+					"text": "5 or more drinks"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "2495309561V670720"
+					}
+				},
+				"effectiveDateTime": "2017-01-01T00:00:00+00:00",
+				"performer": [
+					{
+						"reference": "Practitioner/9990000033",
+						"identifier": {
+							"system": "urn:dxc:vista:provider",
+							"value": "9990000033"
+						},
+						"display": "9990000033"
+					}
+				],
+				"valueString": "9"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_9000010.23_720",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:52:45",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "social-history",
+								"display": "Social History"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"display": "HTN LIFESTYLE MODIFICATIONS RECOMMENDED"
+						}
+					],
+					"text": "HTN LIFESTYLE MODIFICATIONS RECOMMENDED"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001522V244879"
+					}
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/PROGRAMMER,ONE",
+						"identifier": {
+							"system": "urn:dxc:vista:provider",
+							"value": "PROGRAMMER,ONE"
+						},
+						"display": "PROGRAMMER,ONE"
+					}
+				]
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29331",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "22253000",
+							"display": "Pain"
+						}
+					],
+					"text": "Pain"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2015-07-20T00:00:00+00:00",
+				"issued": "2015-07-20T00:00:00.000+00:00",
+				"valueString": "1"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29112",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "75367002",
+							"display": "Blood pressure"
+						}
+					],
+					"text": "Blood pressure"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2013-11-19T00:00:00+00:00",
+				"issued": "2013-11-19T00:00:00.000+00:00",
+				"valueString": "129/74"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29126",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "78564009",
+							"display": "Pulse rate"
+						}
+					],
+					"text": "Pulse rate"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2014-12-01T00:00:00+00:00",
+				"issued": "2014-12-01T00:00:00.000+00:00",
+				"valueString": "81"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29123",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "86290005",
+							"display": "Respiration"
+						}
+					],
+					"text": "Respiration"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2014-09-22T00:00:00+00:00",
+				"issued": "2014-09-22T00:00:00.000+00:00",
+				"valueString": "15"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29129",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "86290005",
+							"display": "Respiration"
+						}
+					],
+					"text": "Respiration"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2014-12-01T00:00:00+00:00",
+				"issued": "2014-12-01T00:00:00.000+00:00",
+				"valueString": "14"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29328",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "86290005",
+							"display": "Respiration"
+						}
+					],
+					"text": "Respiration"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2015-07-20T00:00:00+00:00",
+				"issued": "2015-07-20T00:00:00.000+00:00",
+				"valueString": "14"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29114",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "252465000",
+							"display": "Pulse oximetry"
+						}
+					],
+					"text": "Pulse oximetry"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2013-11-19T00:00:00+00:00",
+				"issued": "2013-11-19T00:00:00.000+00:00",
+				"valueString": "95"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29115",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "386725007",
+							"display": "Body Temperature"
+						}
+					],
+					"text": "Body Temperature"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2013-11-19T00:00:00+00:00",
+				"issued": "2013-11-19T00:00:00.000+00:00",
+				"valueString": "97.9"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29134",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "386725007",
+							"display": "Body Temperature"
+						}
+					],
+					"text": "Body Temperature"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2015-03-01T00:00:00+00:00",
+				"issued": "2015-03-01T00:00:00.000+00:00",
+				"valueString": "99.3"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_63_673_63.04_6849278.916099_63.07_5",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "1751-7",
+							"display": "ALBUMIN"
+						}
+					],
+					"text": "ALBUMIN"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2015-07-20T13:39:01+00:00",
+				"issued": "2015-07-20T13:39:01.000+00:00",
+				"valueString": "4.7"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_63_673_63.04_6868879.9073_63.07_2",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "1917-4",
+							"display": "ASPARTATE AMINOTRANSFERASE"
+						}
+					],
+					"text": "ASPARTATE AMINOTRANSFERASE"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2013-11-19T14:27:00+00:00",
+				"issued": "2013-11-19T14:27:00.000+00:00",
+				"valueString": "20"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_63_673_63.04_6868879.9073_63.07_3",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "1751-7",
+							"display": "ALBUMIN"
+						}
+					],
+					"text": "ALBUMIN"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2013-11-19T14:27:00+00:00",
+				"issued": "2013-11-19T14:27:00.000+00:00",
+				"valueString": "4.6"
+			}
+		},
+		{
+			"resource": {
+				"id": "442_130_101",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:52:39",
+					"security": [
+						{
+							"extension": [
+								{
+									"url": "https://demo10.healthlanguage.com/api/v1",
+									"valueString": "Alcohol and Substance Abuse Sensitivity"
+								}
+							],
+							"system": "http://hl7.org/fhir/v3/ActCode",
+							"code": "ETH",
+							"display": "substance abuse information sensitivity"
+						},
+						{
+							"system": "http://hl7.org/fhir/v3/Confidentiality",
+							"code": "R",
+							"display": "restricted"
+						}
+					],
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "social-history",
+								"display": "Social History"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "24165007",
+							"display": "Alcohol Counseling and Treatment"
+						}
+					],
+					"text": "Alcohol Counseling and Treatment"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "2495309561V670720"
+					}
+				},
+				"effectiveDateTime": "2017-01-01T00:00:00+00:00",
+				"performer": [
+					{
+						"reference": "Practitioner/9990000033",
+						"identifier": {
+							"system": "urn:dxc:vista:provider",
+							"value": "9990000033"
+						},
+						"display": "9990000033"
+					}
+				]
+			}
+		},
+		{
+			"resource": {
+				"id": "24379500043",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:52:30",
+					"profile": [
+						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
+					],
+					"tag": [
+						{
+							"code": "Allscripts",
+							"display": "Allscripts"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"language": "en-US",
+				"text": {
+					"status": "generated"
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						],
+						"text": "Laboratory"
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"code": "FSGLU",
+							"display": "Fasting Glucose"
+						}
+					],
+					"text": "Fasting Glucose"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"display": "Anyman,Bob "
+				},
+				"context": {
+					"reference": "Encounter/70596",
+					"display": "Appointment"
+				},
+				"effectiveDateTime": "2015-06-22T10:00:00-04:00",
+				"performer": [
+					{
+						"reference": "Practitioner/9",
+						"display": "Allscripts,AppAdmin "
+					}
+				],
+				"valueQuantity": {
+					"value": 163
+				}
+			}
+		},
+		{
+			"resource": {
+				"id": "24380500089",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:52:30",
+					"profile": [
+						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
+					],
+					"tag": [
+						{
+							"code": "Allscripts",
+							"display": "Allscripts"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"language": "en-US",
+				"text": {
+					"status": "generated"
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						],
+						"text": "Laboratory"
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"code": "GOAL",
+							"display": "GOAL"
+						}
+					],
+					"text": "Goal"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"display": "Anyman,Bob "
+				},
+				"context": {
+					"reference": "Encounter/70597",
+					"display": "Appointment"
+				},
+				"effectiveDateTime": "2015-06-30",
+				"performer": [
+					{
+						"reference": "Practitioner/9",
+						"display": "Allscripts,AppAdmin "
+					}
+				]
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_28544",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:52:45",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "75367002",
+							"display": "Blood pressure"
+						}
+					],
+					"text": "Blood pressure"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001522V244879"
+					}
+				},
+				"effectiveDateTime": "2015-04-16T00:00:00+00:00",
+				"issued": "2015-04-16T00:00:00.000+00:00",
+				"valueString": "145/107"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29136",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "27113001",
+							"display": "Body weight"
+						}
+					],
+					"text": "Body weight"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2015-03-01T00:00:00+00:00",
+				"issued": "2015-03-01T00:00:00.000+00:00",
+				"valueString": "261"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29443",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "27113001",
+							"display": "Body weight"
+						}
+					],
+					"text": "Body weight"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2017-08-14T00:00:00+00:00",
+				"issued": "2017-08-14T00:00:00.000+00:00",
+				"valueString": "175"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29120",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "78564009",
+							"display": "Pulse rate"
+						}
+					],
+					"text": "Pulse rate"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2014-09-22T00:00:00+00:00",
+				"issued": "2014-09-22T00:00:00.000+00:00",
+				"valueString": "75"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29132",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "78564009",
+							"display": "Pulse rate"
+						}
+					],
+					"text": "Pulse rate"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2015-03-01T00:00:00+00:00",
+				"issued": "2015-03-01T00:00:00.000+00:00",
+				"valueString": "74"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29116",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "86290005",
+							"display": "Respiration"
+						}
+					],
+					"text": "Respiration"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2013-11-19T00:00:00+00:00",
+				"issued": "2013-11-19T00:00:00.000+00:00",
+				"valueString": "12"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29133",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "252465000",
+							"display": "Pulse oximetry"
+						}
+					],
+					"text": "Pulse oximetry"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2015-03-01T00:00:00+00:00",
+				"issued": "2015-03-01T00:00:00.000+00:00",
+				"valueString": "93"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29330",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "252465000",
+							"display": "Pulse oximetry"
+						}
+					],
+					"text": "Pulse oximetry"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2015-07-20T00:00:00+00:00",
+				"issued": "2015-07-20T00:00:00.000+00:00",
+				"valueString": "97"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29329",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "386725007",
+							"display": "Body Temperature"
+						}
+					],
+					"text": "Body Temperature"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2015-07-20T00:00:00+00:00",
+				"issued": "2015-07-20T00:00:00.000+00:00",
+				"valueString": "98.6"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_601.84_100001_601.92_100001",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "survey",
+								"display": "Survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "454711000124102",
+							"display": "PHQ-2 Result"
+						}
+					],
+					"text": "PHQ-2 Result"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2013-11-19T13:53:00+00:00",
+				"issued": "2013-11-19T13:53:00.000+00:00",
+				"performer": [
+					{
+						"reference": "Practitioner/PROVIDER,FIVE",
+						"identifier": {
+							"system": "urn:dxc:vista:provider",
+							"value": "PROVIDER,FIVE"
+						},
+						"display": "PROVIDER,FIVE"
+					},
+					{
+						"reference": "Location/GENERAL+MEDICINE",
+						"identifier": {
+							"system": "urn:dxc:vista:location",
+							"value": "GENERAL MEDICINE"
+						},
+						"display": "GENERAL MEDICINE"
+					}
+				],
+				"valueQuantity": {
+					"value": 2,
+					"unit": "Depression"
+				}
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_63_673_63.04_6849278.916099_63.07_4",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "2003-2",
+							"display": "CALCIUM"
+						}
+					],
+					"text": "CALCIUM"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2015-07-20T13:39:01+00:00",
+				"issued": "2015-07-20T13:39:01.000+00:00",
+				"valueString": "9.6"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_63_673_63.04_6859069.874299_63.07_2",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "1917-4",
+							"display": "ASPARTATE AMINOTRANSFERASE"
+						}
+					],
+					"text": "ASPARTATE AMINOTRANSFERASE"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2014-09-29T17:57:01+00:00",
+				"issued": "2014-09-29T17:57:01.000+00:00",
+				"valueString": "22"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_63_673_63.04_6859069.874299_63.07_4",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "1751-7",
+							"display": "ALBUMIN"
+						}
+					],
+					"text": "ALBUMIN"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2014-09-29T17:57:01+00:00",
+				"issued": "2014-09-29T17:57:01.000+00:00",
+				"valueString": "4.3"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_63_673_63.04_6859069.874299_63.07_5",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "2003-2",
+							"display": "CALCIUM"
+						}
+					],
+					"text": "CALCIUM"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2014-09-29T17:57:01+00:00",
+				"issued": "2014-09-29T17:57:01.000+00:00",
+				"valueString": "8.8"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_63_673_63.04_6859069.8743_63.07_1",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "****-*",
+							"display": "TSH"
+						}
+					],
+					"text": "TSH"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2014-09-29T17:57:00+00:00",
+				"issued": "2014-09-29T17:57:00.000+00:00",
+				"valueString": "3.7"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_63_673_63.04_6868879.907297_63.07_1",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "13457-7",
+							"display": "CHOLESTEROL.IN LDL"
+						}
+					],
+					"text": "CHOLESTEROL.IN LDL"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2013-11-19T14:27:03+00:00",
+				"issued": "2013-11-19T14:27:03.000+00:00",
+				"valueString": "89"
+			}
+		},
+		{
+			"resource": {
+				"id": "24379300063",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:52:30",
+					"profile": [
+						"http://hl7.org/fhir/StructureDefinition/vitalsigns"
+					],
+					"tag": [
+						{
+							"code": "Allscripts",
+							"display": "Allscripts"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"language": "en-US",
+				"text": {
+					"status": "generated"
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						],
+						"text": "Vital Signs"
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "8480-6",
+							"display": "Systolic"
+						}
+					],
+					"text": "Systolic"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"display": "Anyman,Bob "
+				},
+				"context": {
+					"reference": "Encounter/70596",
+					"display": "Appointment"
+				},
+				"effectiveDateTime": "2015-06-22T10:00:00-04:00",
+				"performer": [
+					{
+						"reference": "Practitioner/137",
+						"display": "Primary,Patricia "
+					}
+				],
+				"valueQuantity": {
+					"value": 164,
+					"unit": "mm Hg     ",
+					"system": "http://unitsofmeasure.org"
+				},
+				"related": [
+					{
+						"type": "has-member",
+						"target": {
+							"reference": "VitalsSigns/24379300065",
+							"display": "Diastolic"
+						}
+					}
+				]
+			}
+		},
+		{
+			"resource": {
+				"id": "24379300065",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:52:30",
+					"profile": [
+						"http://hl7.org/fhir/StructureDefinition/vitalsigns"
+					],
+					"tag": [
+						{
+							"code": "Allscripts",
+							"display": "Allscripts"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"language": "en-US",
+				"text": {
+					"status": "generated"
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						],
+						"text": "Vital Signs"
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "8462-4",
+							"display": "Diastolic"
+						}
+					],
+					"text": "Diastolic"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"display": "Anyman,Bob "
+				},
+				"context": {
+					"reference": "Encounter/70596",
+					"display": "Appointment"
+				},
+				"effectiveDateTime": "2015-06-22T10:00:00-04:00",
+				"performer": [
+					{
+						"reference": "Practitioner/137",
+						"display": "Primary,Patricia "
+					}
+				],
+				"valueQuantity": {
+					"value": 108,
+					"unit": "mm Hg     ",
+					"system": "http://unitsofmeasure.org"
+				},
+				"related": [
+					{
+						"type": "has-member",
+						"target": {
+							"reference": "VitalsSigns/24379300063",
+							"display": "Systolic"
+						}
+					}
+				]
+			}
+		},
+		{
+			"resource": {
+				"id": "24379300077",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:52:30",
+					"profile": [
+						"http://hl7.org/fhir/StructureDefinition/vitalsigns"
+					],
+					"tag": [
+						{
+							"code": "Allscripts",
+							"display": "Allscripts"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"language": "en-US",
+				"text": {
+					"status": "generated"
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						],
+						"text": "Vital Signs"
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "8302-2",
+							"display": "Height"
+						}
+					],
+					"text": "Height"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"display": "Anyman,Bob "
+				},
+				"context": {
+					"reference": "Encounter/70596",
+					"display": "Appointment"
+				},
+				"effectiveDateTime": "2015-06-30T10:30:00-04:00",
+				"performer": [
+					{
+						"reference": "Practitioner/9",
+						"display": "Allscripts,AppAdmin "
+					}
+				],
+				"valueQuantity": {
+					"value": 67,
+					"unit": "in        ",
+					"system": "http://unitsofmeasure.org"
+				},
+				"dataAbsentReason": {
+					"coding": [
+						{
+							"code": "8302-2",
+							"display": "Height"
+						}
+					],
+					"text": "0-67"
+				}
+			}
+		},
+		{
+			"resource": {
+				"id": "24379500027",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:52:30",
+					"profile": [
+						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
+					],
+					"tag": [
+						{
+							"code": "Allscripts",
+							"display": "Allscripts"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"language": "en-US",
+				"text": {
+					"status": "generated"
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						],
+						"text": "Laboratory"
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"code": "GOAL",
+							"display": "GOAL"
+						}
+					],
+					"text": "Goal"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"display": "Anyman,Bob "
+				},
+				"context": {
+					"reference": "Encounter/70596",
+					"display": "Appointment"
+				},
+				"effectiveDateTime": "2015-06-22",
+				"performer": [
+					{
+						"reference": "Practitioner/9",
+						"display": "Allscripts,AppAdmin "
+					}
+				]
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_28545",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:52:45",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "50373000",
+							"display": "Body height"
+						}
+					],
+					"text": "Body height"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001522V244879"
+					}
+				},
+				"effectiveDateTime": "2015-04-16T00:00:00+00:00",
+				"issued": "2015-04-16T00:00:00.000+00:00",
+				"valueString": "71\""
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_9000010.23_723",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:52:45",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "social-history",
+								"display": "Social History"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"display": "HTN NO MED CHANGE - OTHER"
+						}
+					],
+					"text": "HTN NO MED CHANGE - OTHER"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001522V244879"
+					}
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/PROGRAMMER,ONE",
+						"identifier": {
+							"system": "urn:dxc:vista:provider",
+							"value": "PROGRAMMER,ONE"
+						},
+						"display": "PROGRAMMER,ONE"
+					}
+				]
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29130",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "27113001",
+							"display": "Body weight"
+						}
+					],
+					"text": "Body weight"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2014-12-01T00:00:00+00:00",
+				"issued": "2014-12-01T00:00:00.000+00:00",
+				"valueString": "258"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29326",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "75367002",
+							"display": "Blood pressure"
+						}
+					],
+					"text": "Blood pressure"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2015-07-20T00:00:00+00:00",
+				"issued": "2015-07-20T00:00:00.000+00:00",
+				"valueString": "128/69"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29135",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "86290005",
+							"display": "Respiration"
+						}
+					],
+					"text": "Respiration"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2015-03-01T00:00:00+00:00",
+				"issued": "2015-03-01T00:00:00.000+00:00",
+				"valueString": "13"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_120.5_29128",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "386725007",
+							"display": "Body Temperature"
+						}
+					],
+					"text": "Body Temperature"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2014-12-01T00:00:00+00:00",
+				"issued": "2014-12-01T00:00:00.000+00:00",
+				"valueString": "99.1"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_601.84_100006_601.92_100006",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "survey",
+								"display": "Survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "715252007",
+							"display": "PHQ9 Result"
+						}
+					],
+					"text": "PHQ9 Result"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2015-03-01T18:23:00+00:00",
+				"issued": "2015-03-01T18:23:00.000+00:00",
+				"performer": [
+					{
+						"reference": "Practitioner/PROVIDER,FIVE",
+						"identifier": {
+							"system": "urn:dxc:vista:provider",
+							"value": "PROVIDER,FIVE"
+						},
+						"display": "PROVIDER,FIVE"
+					},
+					{
+						"reference": "Location/PRIMARY+CARE",
+						"identifier": {
+							"system": "urn:dxc:vista:location",
+							"value": "PRIMARY CARE"
+						},
+						"display": "PRIMARY CARE"
+					}
+				],
+				"valueQuantity": {
+					"value": 2,
+					"unit": "Total"
+				}
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_63_673_63.04_6849278.916099_63.07_1",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "****-*",
+							"display": "LIPID PROFILE"
+						}
+					],
+					"text": "LIPID PROFILE"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2015-07-20T13:39:01+00:00",
+				"issued": "2015-07-20T13:39:01.000+00:00"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_63_673_63.04_6849278.9161_63.07_1",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "****-*",
+							"display": "TSH"
+						}
+					],
+					"text": "TSH"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2015-07-20T13:39:00+00:00",
+				"issued": "2015-07-20T13:39:00.000+00:00",
+				"valueString": "3.2"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_63_673_63.04_6859069.874299_63.07_1",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "****-*",
+							"display": "LIPID PROFILE"
+						}
+					],
+					"text": "LIPID PROFILE"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2014-09-29T17:57:01+00:00",
+				"issued": "2014-09-29T17:57:01.000+00:00"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_63_673_63.04_6859069.874299_63.07_3",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "1775-6",
+							"display": "ALKALINE PHOSPHATASE"
+						}
+					],
+					"text": "ALKALINE PHOSPHATASE"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2014-09-29T17:57:01+00:00",
+				"issued": "2014-09-29T17:57:01.000+00:00",
+				"valueString": "77"
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_63_673_63.04_6868879.907299_63.07_1",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:49:01",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "2003-2",
+							"display": "CALCIUM"
+						}
+					],
+					"text": "CALCIUM"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001533V676621"
+					}
+				},
+				"effectiveDateTime": "2013-11-19T14:27:01+00:00",
+				"issued": "2013-11-19T14:27:01.000+00:00",
+				"valueString": "9.2"
+			}
+		},
+		{
+			"resource": {
+				"id": "24379300073",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:52:30",
+					"profile": [
+						"http://hl7.org/fhir/StructureDefinition/vitalsigns"
+					],
+					"tag": [
+						{
+							"code": "Allscripts",
+							"display": "Allscripts"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"language": "en-US",
+				"text": {
+					"status": "generated"
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						],
+						"text": "Vital Signs"
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "39156-5",
+							"display": "BMI Calculated"
+						}
+					],
+					"text": "BMI Calculated"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"display": "Anyman,Bob "
+				},
+				"context": {
+					"reference": "Encounter/70596",
+					"display": "Appointment"
+				},
+				"effectiveDateTime": "2015-06-30T10:30:00-04:00",
+				"performer": [
+					{
+						"reference": "Practitioner/9",
+						"display": "Allscripts,AppAdmin "
+					}
+				],
+				"valueQuantity": {
+					"value": 33.8300018310547,
+					"unit": "kg/m2",
+					"system": "http://unitsofmeasure.org"
+				}
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_9000010.23_722",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:52:45",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "social-history",
+								"display": "Social History"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"display": "HTN NO MED CHANGE - LIMITED LIFE EXP"
+						}
+					],
+					"text": "HTN NO MED CHANGE - LIMITED LIFE EXP"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001522V244879"
+					}
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/PROGRAMMER,ONE",
+						"identifier": {
+							"system": "urn:dxc:vista:provider",
+							"value": "PROGRAMMER,ONE"
+						},
+						"display": "PROGRAMMER,ONE"
+					}
+				]
+			}
+		},
+		{
+			"resource": {
+				"id": "V_500HS_9000010.23_724",
+				"meta": {
+					"lastUpdated": "2019-01-16T11:52:45",
+					"tag": [
+						{
+							"system": "urn:dxc:vista:source",
+							"code": "VistA",
+							"display": "VistA"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation",
+							"code": "NA",
+							"display": "Not Applicable"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						},
+						{
+							"system": "http://hl7.org/fhir/us/hedis/StructureDefinition/hedis-observation",
+							"code": "N",
+							"display": "Not Compliant"
+						}
+					]
+				},
+				"resourceType": "Observation",
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/ValueSet/observation-category",
+								"code": "social-history",
+								"display": "Social History"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"display": "OUTSIDE AAA REPAIR"
+						}
+					],
+					"text": "OUTSIDE AAA REPAIR"
+				},
+				"subject": {
+					"reference": "Patient/1234",
+					"identifier": {
+						"system": "urn:dxc:vista:icn",
+						"value": "5000001522V244879"
+					}
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/PROGRAMMER,ONE",
+						"identifier": {
+							"system": "urn:dxc:vista:provider",
+							"value": "PROGRAMMER,ONE"
+						},
+						"display": "PROGRAMMER,ONE"
+					}
+				]
+			}
+		}
+	]
+}

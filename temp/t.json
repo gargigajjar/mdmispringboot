@@ -1,0 +1,58 @@
+ {
+	"resourceType": "Patient",
+	"id": "1234",
+	"meta": {
+		"versionId": "1",
+		"lastUpdated": "2019-01-25T11:29:57Z",
+		"tag": [
+			{
+				"display": "OHC"
+			}
+		]
+	},
+	"identifier": [
+		{
+			"system": "OHC",
+			"value": "1234"
+		},
+		{
+			"type": {
+				"coding": [
+					{
+						"system": "http://hl7.org/fhir/identifier-type",
+						"code": "SB"
+					}
+				]
+			},
+			"system": "http://hl7.org/fhir/sid/us-ssn"
+		},
+		{
+			"value": "1234",
+			"assigner": {
+				"display": "external"
+			}
+		},
+		{
+			"value": "1234",
+			"assigner": {
+				"display": "OHC"
+			}
+		}
+	],
+	"name": [
+		{
+			"use": "official",
+			"family": "Veteran",
+			"given": [
+				"Joe"
+			]
+		}
+	],
+	"address": [
+		{
+			"line": [
+				"null"
+			]
+		}
+	]
+}

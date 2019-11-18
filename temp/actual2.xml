@@ -1,0 +1,9 @@
+<root>
+<INSERTED>
+	<PatientName>John Q Patient</PatientName>
+	<PatientID>64544</PatientID>
+	<Dispense>Atorvastatin</Dispense>
+	<Signatura>take 1 po daily</Signatura>
+	<Provider>82</Provider>
+</INSERTED>
+</root>
